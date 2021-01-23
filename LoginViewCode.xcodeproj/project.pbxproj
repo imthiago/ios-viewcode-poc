@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AF77243D25BBA66900949715 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF77243C25BBA66900949715 /* AppDelegate.swift */; };
-		AF77243F25BBA66900949715 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF77243E25BBA66900949715 /* SceneDelegate.swift */; };
-		AF77244125BBA66900949715 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF77244025BBA66900949715 /* ViewController.swift */; };
-		AF77244425BBA66900949715 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF77244225BBA66900949715 /* Main.storyboard */; };
+		AF77244125BBA66900949715 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF77244025BBA66900949715 /* LoginViewController.swift */; };
 		AF77244625BBA66A00949715 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF77244525BBA66A00949715 /* Assets.xcassets */; };
 		AF77244925BBA66A00949715 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF77244725BBA66A00949715 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -18,9 +16,7 @@
 /* Begin PBXFileReference section */
 		AF77243925BBA66900949715 /* LoginViewCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginViewCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF77243C25BBA66900949715 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AF77243E25BBA66900949715 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AF77244025BBA66900949715 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AF77244325BBA66900949715 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF77244025BBA66900949715 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		AF77244525BBA66A00949715 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF77244825BBA66A00949715 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF77244A25BBA66A00949715 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,9 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				AF77243C25BBA66900949715 /* AppDelegate.swift */,
-				AF77243E25BBA66900949715 /* SceneDelegate.swift */,
-				AF77244025BBA66900949715 /* ViewController.swift */,
-				AF77244225BBA66900949715 /* Main.storyboard */,
+				AF77244025BBA66900949715 /* LoginViewController.swift */,
 				AF77244525BBA66A00949715 /* Assets.xcassets */,
 				AF77244725BBA66A00949715 /* LaunchScreen.storyboard */,
 				AF77244A25BBA66A00949715 /* Info.plist */,
@@ -126,7 +120,6 @@
 			files = (
 				AF77244925BBA66A00949715 /* LaunchScreen.storyboard in Resources */,
 				AF77244625BBA66A00949715 /* Assets.xcassets in Resources */,
-				AF77244425BBA66900949715 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,23 +130,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF77244125BBA66900949715 /* ViewController.swift in Sources */,
+				AF77244125BBA66900949715 /* LoginViewController.swift in Sources */,
 				AF77243D25BBA66900949715 /* AppDelegate.swift in Sources */,
-				AF77243F25BBA66900949715 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AF77244225BBA66900949715 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AF77244325BBA66900949715 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AF77244725BBA66A00949715 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
