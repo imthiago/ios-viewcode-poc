@@ -20,8 +20,8 @@ class LoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Login Demo"
-        view.backgroundColor = .white
         applyViewCode()
+        hideKeyboardOnTap()
     }
 }
 

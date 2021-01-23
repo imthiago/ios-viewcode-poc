@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		AF77244625BBA66A00949715 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF77244525BBA66A00949715 /* Assets.xcassets */; };
 		AF77244925BBA66A00949715 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF77244725BBA66A00949715 /* LaunchScreen.storyboard */; };
 		AF77245525BBAA9300949715 /* ViewCodeConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF77245425BBAA9300949715 /* ViewCodeConfiguration.swift */; };
+		AFC0F4B325BBBEB700606288 /* UiViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC0F4B225BBBEB700606288 /* UiViewController+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		AF77244825BBA66A00949715 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF77244A25BBA66A00949715 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF77245425BBAA9300949715 /* ViewCodeConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCodeConfiguration.swift; sourceTree = "<group>"; };
+		AFC0F4B225BBBEB700606288 /* UiViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UiViewController+.swift"; sourceTree = "<group>"; };
 		CA930DFAEF15F16E7A3BF4AA /* Pods_LoginViewCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginViewCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -54,7 +56,6 @@
 				23ADCF007EE94E57B6D8B68E /* Pods-LoginViewCode.debug.xcconfig */,
 				6842A5536178EAD290BE59B2 /* Pods-LoginViewCode.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -85,6 +86,7 @@
 				AF77244725BBA66A00949715 /* LaunchScreen.storyboard */,
 				AF77244A25BBA66A00949715 /* Info.plist */,
 				AF77245425BBAA9300949715 /* ViewCodeConfiguration.swift */,
+				AFC0F4B225BBBEB700606288 /* UiViewController+.swift */,
 			);
 			path = LoginViewCode;
 			sourceTree = "<group>";
@@ -204,6 +206,7 @@
 			files = (
 				AF77245525BBAA9300949715 /* ViewCodeConfiguration.swift in Sources */,
 				AF77244125BBA66900949715 /* LoginViewController.swift in Sources */,
+				AFC0F4B325BBBEB700606288 /* UiViewController+.swift in Sources */,
 				AF77243D25BBA66900949715 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
