@@ -7,19 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40C00B2553FF86BACE7ACB73 /* Pods_LoginViewCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA930DFAEF15F16E7A3BF4AA /* Pods_LoginViewCode.framework */; };
 		AF77243D25BBA66900949715 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF77243C25BBA66900949715 /* AppDelegate.swift */; };
 		AF77244125BBA66900949715 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF77244025BBA66900949715 /* LoginViewController.swift */; };
 		AF77244625BBA66A00949715 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF77244525BBA66A00949715 /* Assets.xcassets */; };
 		AF77244925BBA66A00949715 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF77244725BBA66A00949715 /* LaunchScreen.storyboard */; };
+		AF77245525BBAA9300949715 /* ViewCodeConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF77245425BBAA9300949715 /* ViewCodeConfiguration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		23ADCF007EE94E57B6D8B68E /* Pods-LoginViewCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginViewCode.debug.xcconfig"; path = "Target Support Files/Pods-LoginViewCode/Pods-LoginViewCode.debug.xcconfig"; sourceTree = "<group>"; };
+		6842A5536178EAD290BE59B2 /* Pods-LoginViewCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginViewCode.release.xcconfig"; path = "Target Support Files/Pods-LoginViewCode/Pods-LoginViewCode.release.xcconfig"; sourceTree = "<group>"; };
 		AF77243925BBA66900949715 /* LoginViewCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginViewCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF77243C25BBA66900949715 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF77244025BBA66900949715 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		AF77244525BBA66A00949715 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF77244825BBA66A00949715 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF77244A25BBA66A00949715 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF77245425BBAA9300949715 /* ViewCodeConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCodeConfiguration.swift; sourceTree = "<group>"; };
+		CA930DFAEF15F16E7A3BF4AA /* Pods_LoginViewCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginViewCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +33,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40C00B2553FF86BACE7ACB73 /* Pods_LoginViewCode.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30B6C2A9EA65D11C43BBD002 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA930DFAEF15F16E7A3BF4AA /* Pods_LoginViewCode.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		40AAE0DBBAAC4E5D0E67C380 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				23ADCF007EE94E57B6D8B68E /* Pods-LoginViewCode.debug.xcconfig */,
+				6842A5536178EAD290BE59B2 /* Pods-LoginViewCode.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		AF77243025BBA66900949715 = {
 			isa = PBXGroup;
 			children = (
 				AF77243B25BBA66900949715 /* LoginViewCode */,
 				AF77243A25BBA66900949715 /* Products */,
+				40AAE0DBBAAC4E5D0E67C380 /* Pods */,
+				30B6C2A9EA65D11C43BBD002 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,6 +84,7 @@
 				AF77244525BBA66A00949715 /* Assets.xcassets */,
 				AF77244725BBA66A00949715 /* LaunchScreen.storyboard */,
 				AF77244A25BBA66A00949715 /* Info.plist */,
+				AF77245425BBAA9300949715 /* ViewCodeConfiguration.swift */,
 			);
 			path = LoginViewCode;
 			sourceTree = "<group>";
@@ -68,9 +96,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF77244D25BBA66A00949715 /* Build configuration list for PBXNativeTarget "LoginViewCode" */;
 			buildPhases = (
+				49AFF28EB1F9B9D3C60B60A5 /* [CP] Check Pods Manifest.lock */,
 				AF77243525BBA66900949715 /* Sources */,
 				AF77243625BBA66900949715 /* Frameworks */,
 				AF77243725BBA66900949715 /* Resources */,
+				D526238DA91C7E5D88C39E45 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,11 +155,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		49AFF28EB1F9B9D3C60B60A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoginViewCode-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D526238DA91C7E5D88C39E45 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoginViewCode/Pods-LoginViewCode-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoginViewCode/Pods-LoginViewCode-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoginViewCode/Pods-LoginViewCode-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AF77243525BBA66900949715 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF77245525BBAA9300949715 /* ViewCodeConfiguration.swift in Sources */,
 				AF77244125BBA66900949715 /* LoginViewController.swift in Sources */,
 				AF77243D25BBA66900949715 /* AppDelegate.swift in Sources */,
 			);
@@ -267,6 +340,7 @@
 		};
 		AF77244E25BBA66A00949715 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23ADCF007EE94E57B6D8B68E /* Pods-LoginViewCode.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -286,6 +360,7 @@
 		};
 		AF77244F25BBA66A00949715 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6842A5536178EAD290BE59B2 /* Pods-LoginViewCode.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
